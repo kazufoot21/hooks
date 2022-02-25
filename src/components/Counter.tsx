@@ -16,7 +16,7 @@ const Counter: VFC = () => {
     <button
       onClick={() => {
         setCount((prevCount) => prevCount + 1);
-        setCount((prevCount) => prevCount + 2);
+        setCount((prevCount) => prevCount + 1);
       }}
     >
       {count}
